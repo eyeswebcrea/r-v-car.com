@@ -15,6 +15,7 @@ web/*
 !web/images/
 !web/.htaccess
 !web/google*.html
+!web/*.pdf
 .project 
 
 # Symfony files to ignore
@@ -34,5 +35,6 @@ web/*
 !web/images/
 !web/.htaccess
 !web/google*.html
+!web/*.pdf
 .project 
 
