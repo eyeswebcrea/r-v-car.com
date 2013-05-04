@@ -1,0 +1,88 @@
+	.slides_container {
+    width:950px;
+    height:397px;
+  }
+  .slides_container div {
+    width:950px;
+    height:397px;
+    display:block;
+  }
+  
+  .slides {
+  	position: relative;
+  	width:950px;
+  }
+  
+  .slides ul.pagination {
+  	position: absolute;
+  	top: 200px;
+  	z-index: 5;
+  	overflow: hidden;
+  	border-radius: 5px;
+  	background: lightgray;
+  	border: solid white 2px;
+  	box-shadow: 1px 1px 1px black;
+  	display: inline-block;
+  	padding: 0px;
+	right: 0px;
+  	margin-right: 20px;
+  }
+
+  .slides ul.pagination li {
+  	float: left;
+  }
+  
+  .slides ul.pagination li a {
+  	display: block;
+  	padding: 5px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	color: black;
+  	text-decoration: none;
+  	font-weight: bold;
+  	margin: 5px;
+  	border-radius: 5px;
+  }
+  
+  .slides ul.pagination li a:hover {
+  	background: black;
+  	color: white;
+  }
+  
+  div.item div.item-image {
+  	height: 232px;
+  	border-bottom: solid black 5px;
+  	
+  		    background-color:#09c;
+	    background-image:-moz-linear-gradient(top,white,white 50%,rgba(255,255,255,0) 75%,rgba(255,255,255,0));
+	    background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),color-stop(0.5,white),color-stop(0.75,rgba(255,255,255,0)),to(rgba(255,255,255,0)));
+	    /*transitions background*/
+	    -webkit-transition:background-color 1s ease-out;
+	       -moz-transition:background-color 1s ease-out;
+	         -o-transition:background-color 1s ease-out;
+  }
+  
+   div.item div.item-contenu , div.item div.item-image {
+
+   		overflow: hidden;
+   }
+  
+  div.item div.item-contenu {
+  	height: 176px;
+  	text-align: center;
+	font-size: 1.2em;
+	color: #4E5358;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	
+	background: #292E34;
+	background: -moz-linear-gradient(bottom,#21262A,#333941);
+	background: -webkit-gradient(linear,left bottom,left top,from(#21262A),to(#333941));
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow: 0px -6px 0px #1b1e22,0 -7px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px -6px 0px #1b1e22,0 -7px 3px rgba(0,0,0,0.5);
+	box-shadow: 0px -6px 0px #1b1e22,0 -7px 3px rgba(0,0,0,0.5);
+  }
+  
+  div.slides {
+  	position: relative;
+  }
