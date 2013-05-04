@@ -87,6 +87,11 @@ class DefaultController extends Controller
 		return $this->render("SiteHomeBundle:Default:venteneufdetail08.html.twig");
 	}
 	
+    public function viewPageVenteNeufDetail09Action()
+	{
+		return $this->render("SiteHomeBundle:Default:venteneufdetail09.html.twig");
+	}
+	
 	public function viewPageContactAction()
 	{
 		return $this->render("SiteHomeBundle:Default:contact.html.twig");

@@ -32,7 +32,7 @@ div.item a {
 }
 
 div#venteoccasion {
-	margin-left: 10px;
+	padding-left: 10px;
 	background: url("/images/fondblancgris2.png");
 	background-repeat: repeat-y;
 }

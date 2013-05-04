@@ -65,7 +65,27 @@ jms_security_extra:
 eyeswebcrea_referencement:
     rubriqueId: 1
     article_manager: spip_acces_content.article_manager
-    routes_sitemap: ["SiteHomeBundle_homepage", "SiteHomeBundle_contact", "SiteHomeBundle_services", "SiteHomeBundle_venteneuf", "SiteHomeBundle_venteoccasion", "SiteHomeBundle_ventedetail"]
+    routes_sitemap: 
+        - "SiteHomeBundle_homepage"
+        - "SiteHomeBundle_contact"
+        - "SiteHomeBundle_services"
+        - "SiteHomeBundle_venteneuf"
+        - "SiteHomeBundle_venteoccasion"
+        - "SiteHomeBundle_venteneufdetail01"
+        - "SiteHomeBundle_venteneufdetail02"
+        - "SiteHomeBundle_venteneufdetail03"
+        - "SiteHomeBundle_venteneufdetail03"
+        - "SiteHomeBundle_venteneufdetail04"
+        - "SiteHomeBundle_venteneufdetail05"
+        - "SiteHomeBundle_venteneufdetail06"
+        - "SiteHomeBundle_venteneufdetail07"
+        - "SiteHomeBundle_venteneufdetail08"
+        - "SiteHomeBundle_venteneufdetail09"
+        - "SiteHomeBundle_venteoccasiondetail01"
+        - "SiteHomeBundle_venteoccasiondetail02"
+        - "SiteHomeBundle_venteoccasiondetail03"
+        - "SiteHomeBundle_venteoccasiondetail04"
+        
    
 eyeswebcrea_alias_content_viewer:
     article_manager: spip_acces_content.article_manager
@@ -82,7 +102,7 @@ ihqs_contact:
     model: ~                                # (optional) class managing the model
     connectors:                             # the list of "listeners" (or connectors here)
         email:                              # connecting the email listener
-            recipients: contact@r-v-car.com    # giving him the recipient(s) email(s)
+            recipients: [contact@r-v-car.com, sav@r-v-car.com]    # giving him the recipient(s) email(s)
         database:                           # connecting the database listener
             db_driver: orm                  # giving him the database driver
         file: ~                             # connecting the file logger listener
@@ -95,7 +115,7 @@ google:
         trackers:
             default:
                 name:      rvcarTracker
-                accountId: UA-xxxx-x
+                accountId: UA-40513382-1
                 domain:    .r-v-car.com
                 trackPageLoadTime: true
 

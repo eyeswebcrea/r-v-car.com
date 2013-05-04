@@ -32,7 +32,7 @@ div.item a {
 }
 
 div#venteneuf {
-	margin-left: 10px;
+	padding-left: 10px;
 	background: url("/images/fondblancgris2.png");
 	background-repeat: repeat-y;
 }
@@ -260,6 +260,47 @@ div.texte-chatenay-1 div.block-content p.textechatenay3 {
 	font-weight: bold;
 }
 div.texte-chatenay-1 a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #332e71;
+}
+div.designventeneuf4 img {
+	padding-left: 40px;
+	margin-top: 10px;
+}
+div.photo-kerry {
+	padding-top: 30px;
+}
+div.photo-kerry div.block-content img {
+	padding-left: 20px;
+	padding-top: 50px;
+}
+div.texte-kerry-1 {
+	padding-left: 30px;
+}
+div.texte-kerry-1 div.block-content p.textekerry1 {
+	padding-top: 50px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-kerry-1 div.block-content p.textekerry2 {
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-kerry-1 div.block-content p.textekerry3 {
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-kerry-1 a.pointeur1 {
 	padding-top: 10px;
 	padding-left: 20px;
 	font-size: 14px;

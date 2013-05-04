@@ -65,4 +65,9 @@ SiteHomeBundle_venteneufdetail07:
 SiteHomeBundle_venteneufdetail08:
     pattern: /vente-neuf-detail08
     defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail08 }
+    
+SiteHomeBundle_venteneufdetail09:
+    pattern: /vente-neuf-detail09
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail09 }
+    
    

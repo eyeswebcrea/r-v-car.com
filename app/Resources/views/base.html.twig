@@ -4,10 +4,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>{% block title %}Sittler{% endblock %}</title>
+        <title>{% block title %}R-V-Car{% endblock %}</title>
         <!-- Fichier de définition css -->
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
-        <link rel="stylesheet" href="/css_static/blueprint/screen.css" type="text/css" media="screen, projection">
+		<link rel="shortcut icon" href="{{ asset('images/rvico.png') }}" />
+                <link rel="stylesheet" href="/css_static/blueprint/screen.css" type="text/css" media="screen, projection">
 		<link rel="stylesheet" href="/css_static/blueprint/print.css" type="text/css" media="print">
 		<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
 		<!–[if IE]><link rel="stylesheet" href="/css_static/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]–>
@@ -25,6 +25,26 @@
         <!-- Fichiers de script javascript -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    	<script language="javascript">
+    		function imprimer_bloc(titre, objet) {
+    			// definition de la zone à imprimer
+    			var zone = document.getElementById(objet).innerHTML;
+    			// Ohverture du pop-up
+    			var fen = window.open("", "", "height=800, width=600,toolbar=0, menubar=0, scrollbars=1, resizable=1,status=0, location=0, left=10, top=10");
+    			// Style du Pop-up
+    			fen.document.body.style.color = '#000000';
+    			fen.document.body.style.backgroundColor = '#ffffff';
+    			fen.document.body.style.padding = "20px";
+    			// Ajout des données à imprimer
+    			fen.document.title = titre;
+    			fen.document.body.innerHTML += " " + zone + " ";
+    			// Impression du popup
+    			fen.window.print();
+    			//Fermeture du popup
+    			fen.window.close();
+    			return true;
+    		}
+    	</script>
         
         {% 
         		javascripts output='js/compressed.js' 

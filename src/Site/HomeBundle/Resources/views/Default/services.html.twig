@@ -3,7 +3,7 @@
 {% block stylesheets %}
 	{{ parent() }}
 	{% 
-		stylesheets output='css/lacarte.css' 
+		stylesheets output='css/services.css' 
 		'@SiteHomeBundle/Resources/public/css/services.css'
 	%}
 		<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="all" title="no title" charset="utf-8"/>
@@ -25,7 +25,7 @@
 		    				</div>
 		    				<div class="texte-1 span-11 block block-2-line" id="texte1-1">
 		    					<div class="block-content">
-		    						<p class="texte1">Des Spécialistes reconnus mécanique auto</p>
+		    						<p class="texte1">Des Spécialistes reconnus et qualifiés mécanique auto</p>
 		    					</div>
 		    				</div>
 		    				<div class="photo-prefecture span-5 last block block-2-line" id="photo3-1">
@@ -65,7 +65,7 @@
 		    						<div class="block-content">
 		    							<p class="texte31">Exemples de petites pannes réparées dans l'heure</p>
 		    							<p class="texte32">Pneu crevé</p>
-		    							<p class="texte33">Changement de courroie, variateur</p>
+		    							<p class="texte33">Changement de courroie, de variateur</p>
 		    							<p class="texte34">Révision à partir de 99 Euros : ( Changement de filtre, vidange, contrôle freins, serrage, éclairage..)</p>	
 		    					</div>
 		    				</div>
@@ -83,10 +83,10 @@
 		    				</div>
 		    				<div class="texte-4 span-11 block block-3-line" id="texte3-1">
 		    						<div class="block-content">
-		    							<p class="texte41">Exemples de piéces détachées</p>
+		    							<p class="texte41">Exemples de piéces détachées toutes marques</p>
 		    							<p class="texte42">Amortisseurs, Batterie, Courroie,</p>
 		    							<p class="texte43">Variateurs, Filtres</p>
-		    							<p class="texte44">Plaquettes de freins etc..</p>	
+		    							<p class="texte44">Plaquettes de freins, etc..</p>	
 		    					</div>
 		    				</div>
 		    				<div class="photo-item-2-d span-5 last block block-3-line" id="auto">
@@ -96,29 +96,6 @@
 		    				</div>
 		    		</div>
 		    	</div>
-		    	
-		    		<div class="span-24 photo-list-03">		
-		    				<div class="photo-item-6 span-6 block block-3-line" id="location-1">
-		    					<div class="block-content">
-		    						<img src="/images/services/libreauto.png" alt="micro3">
-		    					</div>
-		    				</div>
-		    				<div class="texte-6 span-11 block block-3-line" id="texte5-1">
-		    					<div class="block-content">
-		    						<div class="block-content">
-		    							<p class="texte61">LOCATION : Découvrez nos formules de location</p>
-		    							<p class="texte62">Formule Liberté eco green</p>
-		    							<p class="texte63">Formule Liberté</p>
-		    							<p class="texte64">Formule Liberté Pro</p>	
-		    					</div>	
-		    					</div>
-		    				</div>
-		    				<div class="photo-item-6-d span-5 last block block-3-line" id="europe-assistance">
-		    					<div class="block-content">
-		    						<img src="/images/services/20euros.png" alt="micro3">
-		    					</div>
-		    				</div>
-		    		</div>
 		    		<div class="span-24 photo-list-03">		
 		    				<div class="photo-item-7 span-6 block block-3-line" id="location-1">
 		    					<div class="block-content">
@@ -137,10 +114,58 @@
 		    				</div>
 		    				<div class="photo-item-7-d span-5 last block block-3-line" id="europe-assistance">
 		    					<div class="block-content">
-		    						<img src="/images/services/hommerepair.png" alt="micro3">
+		    						<p class="texte75">Téléphone :</p>
+		    						<p class="texte76">01 46 42 19 65</p>
+		    						<p class="texte77">06 82 35 91 81</p>
 		    					</div>
 		    				</div>
 		    		</div>
+		    		<div class="span-24 photo-list-10">		
+		    				<div class="photo-item-10 span-6 block block-3-line" id="carrosserie">
+		    					<div class="block-content">
+		    						<img src="/images/services/carrosserie.jpg" alt="micro3">
+		    					</div>
+		    				</div>
+		    				<div class="texte-10 span-11 block block-3-line" id="texte5-1">
+		    					<div class="block-content">
+		    						<div class="block-content">
+		    							<p class="textea1">Carrosserie Peinture</p>
+		    							<p class="textea2">Nous réalisons tous types de travaux de carrosserie</p>
+		    							<p class="textea3">et peinture, toutes voitures, toutes marques.</p>
+		    							<p class="textea4">Devis gratuit !</p>	
+		    					</div>	
+		    					</div>
+		    				</div>
+		    				<div class="photo-item-10-d span-5 last block block-3-line" id="carrosserie-2">
+		    					<div class="block-content">
+		    						<img src="/images/services/peinture.jpg" alt="micro3">
+		    					</div>
+		    				</div>
+		    		</div>
+		    		
+		    		<div class="span-24 photo-list-03">		
+		    				<div class="photo-item-6 span-6 block block-3-line" id="location-1">
+		    					<div class="block-content">
+		    						<img src="/images/services/libreauto.png" alt="micro3">
+		    					</div>
+		    				</div>
+		    				<div class="texte-6 span-11 block block-3-line" id="texte5-1">
+		    					<div class="block-content">
+		    						<div class="block-content">
+		    							<a class="texte61" href="http://www.locationvoitures-sans-permis.net">LOCATION : Découvrez nos formules de location</a>
+		    							<p class="texte62">Formule Liberté eco green</p>
+		    							<p class="texte63">Formule Liberté</p>
+		    							<p class="texte64">Formule Liberté Pro</p>	
+		    					</div>	
+		    					</div>
+		    				</div>
+		    				<div class="photo-item-6-d span-5 last block block-3-line" id="europe-assistance">
+		    					<div class="block-content">
+		    						<img src="/images/services/20euros.png" alt="micro3">
+		    					</div>
+		    				</div>
+		    		</div>
+		    		
 		    		<div class="span-24 photo-list-03">		
 		    				<div class="photo-item-8 span-6 block block-3-line" id="location-1">
 		    					<div class="block-content">
@@ -150,10 +175,10 @@
 		    				<div class="texte-8 span-11 block block-3-line" id="texte5-1">
 		    					<div class="block-content">
 		    						<div class="block-content">
-		    							<p class="texte81">Commander votre carte grise et plaques en ligne</p>
-		    							<p class="texte82">Votre carte grise à partir de</p>
-		    							<p class="texte83">Votre carte grise + plaques à partir de</p>
-		    							<p class="texte84">Vos plaques à partir de </p>	
+		    							<a class="texte81" href="http://www.cartegrise-plaques.com">Commander votre carte grise et plaques en ligne</a>
+		    							<p class="texte82">Votre carte grise à partir de 29€</p>
+		    							<p class="texte83">Votre carte grise + plaques à partir de 49€</p>
+		    							<p class="texte84">Vos plaques à partir de 10€</p>	
 		    					</div>	
 		    					</div>
 		    				</div>

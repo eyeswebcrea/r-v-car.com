@@ -61,7 +61,7 @@ div#header div.tel p.telephone {
 	
 
 div#conteneur-bas-partie-milieu {
-	background-image: url("/images/modelefondcentralcadre6.png");
+	
 	margin-top: 0px;
 	padding-top: 0px;
 	padding-left: 0px;
@@ -101,7 +101,9 @@ div#bandeau div.bandeau-modif div.slides ul.pagination {
 	padding: 0 5px;
 }
 
-
+div.referencement_container div.block-R {
+	background-color: #c1bec0;
+}
 
 
 /* #email-link */

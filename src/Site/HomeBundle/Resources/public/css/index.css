@@ -30,8 +30,15 @@ div.item a {
 	position: relative;
 	display: block;
 }
-div.conteneur-index {
-	
+div#conteneur-index {
+	background-image: url("/images/modelefondcentralcadre6.png");
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-top: 3px solid #332e71;
 }
 div.specialiste-item div.block-content img {
 	padding-left: 30px;
@@ -90,7 +97,7 @@ div.reparation div.block-content div.textdeco img.fleche1 {
 	margin-left: -105px;
 }
 div.reparation div.block-content div.textdeco img.fleche2 {
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-left: -105px;
 }
 div.reparation div.block-content div.textdeco p {
@@ -100,7 +107,7 @@ div.reparation div.block-content div.textdeco p {
 	font-weight: bold;
 }
 div.reparation div.block-content div.textdeco p.reparation-1 {
-	margin-top: -45px;
+	margin-top: -60px;
 	margin-left: -25px;
 	font-size: 20px;
 	font-weight: bold;
@@ -150,7 +157,7 @@ div.location div.block-content p.location-2 {
 	font-weight: bold;
 	color: black;
 	margin-bottom: 5px;
-	margin-left: -40px;
+	margin-left: 0px;
 }
 
 div.vente-neuf-occasion div.block-content p.special-1 {
@@ -218,7 +225,7 @@ div.vente-3 div.vente-3-suite p.piecedet-2 {
 	font-weight: bold;
 	color: black;
 	margin-bottom: 5px;
-	padding-left: 30px;
+	padding-left: 48px;
 }
 
 

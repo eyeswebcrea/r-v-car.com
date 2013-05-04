@@ -32,7 +32,7 @@ div.item a {
 }
 
 div#services {
-	margin-left: 10px;
+	padding-left: 10px;
 	background: url("/images/fondblancgris2.png");
 	background-repeat: repeat-y;
 }
@@ -60,7 +60,7 @@ div.texte-1 div.block-content p.texte1 {
 	padding-top: 50px;
 	text-align: center;
 	font-size: 20px;
-	color: red;
+	color: black;
 }
 
 div.photo-prefecture div.block-content img {
@@ -211,17 +211,17 @@ div.photo-item-6 div.block-content img {
 div.texte-6 div.block-content {
 	padding-top: 10px;
 }
-div.texte-6 div.block-content p.texte61 {
+div.texte-6 div.block-content a.texte61 {
 	padding-top: 0px;
 	text-align: left;
 	font-size: 18px;
-	color: black;
+	color: blue;
 	text-decoration: underline;
 }
 div.texte-6 div.block-content p.texte62 {
 	text-align: left;
 	padding-left: 60px;
-	margin-top: -20px;
+	margin-top: 5px;
 	font-size: 15px;
 	color: black;
 }
@@ -287,10 +287,28 @@ div.texte-7 div.block-content p.texte74 {
 	color: black;
 }
 
-div.photo-item-7-d div.block-content img {
-	padding-left: 65px;
-	padding-top: 20px;
+div.photo-item-7-d div.block-content p.texte75 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 18px;
+	font-size: 20px;
+	color: black;
 }
+div.photo-item-7-d div.block-content p.texte76 {
+	text-align: left;
+	padding-left: 90px;
+	margin-top: -16px;
+	font-size: 15px;
+	color: black;
+}
+div.photo-item-7-d div.block-content p.texte77 {
+	text-align: left;
+	padding-left: 90px;
+	margin-top: -5px;
+	font-size: 15px;
+	color: black;
+}
+
 
 div.photo-list-05 {
 	background-image: url("/images/services/servicefb5.png");
@@ -305,31 +323,31 @@ div.photo-item-8 div.block-content img {
 div.texte-8 div.block-content {
 	padding-top: 10px;
 }
-div.texte-8 div.block-content p.texte81 {
+div.texte-8 div.block-content a.texte81 {
 	padding-top: 0px;
 	text-align: left;
 	font-size: 18px;
-	color: black;
+	color: blue;
 	text-decoration: underline;
 }
 div.texte-8 div.block-content p.texte82 {
 	text-align: left;
 	padding-left: 60px;
-	margin-top: -24px;
+	margin-top: 7px;
 	font-size: 15px;
 	color: black;
 }
 div.texte-8 div.block-content p.texte83 {
 	text-align: left;
 	padding-left: 60px;
-	margin-top: -24px;
+	margin-top: -20px;
 	font-size: 15px;
 	color: black;
 }
 div.texte-8 div.block-content p.texte84 {
 	text-align: left;
 	padding-left: 60px;
-	margin-top: -24px;
+	margin-top: -20px;
 	font-size: 15px;
 	color: black;
 }
@@ -387,4 +405,50 @@ div.photo-list-06 {
 	background-repeat: no-repeat;
 	background-position: 2px 0px;
 }
+div.photo-list-10 {
+	background-image: url("/images/services/servicefb6.png");
+	background-repeat: no-repeat;
+	background-position: 2px 0px;
+}
+div.photo-item-10 div.block-content img {
+	padding-left: 30px;
+	padding-top: 22px;
+}
+div.texte-10 div.block-content {
+	padding-top: 10px;
+}
+div.texte-10 div.block-content p.textea1 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	text-decoration: underline;
+}
+div.texte-10 div.block-content p.textea2 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-10 div.block-content p.textea3 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-10 div.block-content p.textea4 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-10-d div.block-content img {
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
 

@@ -32,7 +32,7 @@ div.item a {
 }
 
 div#ventedetail {
-	margin-left: 10px;
+	padding-left: 10px;
 	background: url("/images/fondblancgris2.png");
 	background-repeat: repeat-y;
 }
