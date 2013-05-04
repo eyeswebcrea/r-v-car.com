@@ -33,18 +33,20 @@
 		  					<div class="detail-logo span-11 block block-2-line" id="detail-logo-1">
 		    					<div class="block-content">
 		    						<img class="imagelogo" src="/images/detail/impressionimages.png" align="right">
-		    						<p class="textelogo">Imprimer l'Annonce</p>
+		    						<a href="#" onclick="javascript:imprimer_bloc('Descriptif', 'imprime_moi');" class="textelogo">Imprimer l'Annonce</a>
 		    					</div>
 		    				</div>	
 		    				
 		    		</div>
 		  			<div class="span-12 diaporamad-21-list">
+		  				<div id="imprime_moi">
 		    				
 		    				<div class="texte-diaporamad21 span-11 last block block-12-line" id="texte-diaporamad21-t">
 		    					{% for rubrique in boucleRubriques({ "idRubrique" : 36 }) %}						
 									<div class="content">{{ rubrique.getTexte() | raw }}</div>
 								{% endfor %}
 		    				</div>
+			    		</div>
 		    		</div>
 		    </div>		
 		    
